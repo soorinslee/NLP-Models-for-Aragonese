@@ -27,10 +27,10 @@ def deEmojify(text):
 
 
 # Twitter API
-consumer_key = 'CBhShEiL338rrebct8UYE4X9g'
-consumer_secret = 'vXVsyl32qmHKcYrJn13axpl4ghiF5uYatjvCpazOhfQDr0z6Zw'
-access_token = '610019852-HBZMroQBrLiKPAoRv0uyUuFf5BNqLRVWD5NicFgt'
-access_token_secret = 'hoUrUrxz3BdLf1LWoATIdg2DkOvEg2nHv6aB9qULk2Oxz'
+consumer_key = 'CONSUMER_KEY'
+consumer_secret = 'SECRET_CONSUMER_KEY'
+access_token = 'ACCESS_TOKEN'
+access_token_secret = 'SECRET_ACCESS_TOKEN'
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
